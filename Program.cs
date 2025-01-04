@@ -9,11 +9,14 @@ namespace MyProgram
     {
         public static void Main(string[] args)
         {
-            string[] allIngredients = { "sliced bread", "ground beef", "egg", "cheese", "lettuce", "tomato", "onion", "olive oil", "bacon", "butter", "chicken" };
+            string[] allIngredients = { "sliced bread", "ground beef", "egg", "cheese", "lettuce", "tomato", "onion", "olive oil", "bacon", "butter", "chicken", "vinegar", "mayonnaise", "red onion" };
             string[] breakfastPlate = { "sliced bread", "egg", "cheese", "butter", "bacon" };
             string[] burger = { "sliced bread", "ground beef", "lettuce", "tomato", "onion", "olive oil" };
-            string[] salad = { "lettuce", "tomato", "onion" };
+            string[] salad = { "lettuce", "tomato", "onion", "olive oil", "vinegar" };
             string[] chickenSandwich = { "sliced bread", "chicken", "lettuce", "tomato", };
+            string[] grilledChickenSalad = { "chicken", "lettuce", "tomato", "onion" };
+            string[] chickenSalad = { "chicken", "vinegar", "mayonnaise", "red onion" };
+
 
 
             string ingredientList = string.Join("\n", allIngredients.Select((item, index) => $"{index + 1}. {item}"));
