@@ -9,13 +9,14 @@ namespace MyProgram
     {
         public static void Main(string[] args)
         {
-            string[] allIngredients = { "sliced bread", "ground beef", "egg", "cheese", "lettuce", "tomato", "onion", "olive oil", "bacon", "butter", "chicken", "vinegar", "mayonnaise", "red onion" };
+            string[] allIngredients = { "sliced bread", "ground beef", "egg", "cheese", "lettuce", "tomato", "onion", "olive oil", "bacon", "butter", "chicken", "vinegar", "mayonnaise", "red onion", "potato", "salt", "pepper", "milk", "celery" };
             string[] breakfastPlate = { "sliced bread", "egg", "cheese", "butter", "bacon" };
             string[] burger = { "sliced bread", "ground beef", "lettuce", "tomato", "onion", "olive oil" };
             string[] salad = { "lettuce", "tomato", "onion", "olive oil", "vinegar" };
             string[] chickenSandwich = { "sliced bread", "chicken", "lettuce", "tomato", };
             string[] grilledChickenSalad = { "chicken", "lettuce", "tomato", "onion" };
-            string[] chickenSalad = { "chicken", "vinegar", "mayonnaise", "red onion" };
+            string[] chickenSalad = { "chicken", "vinegar", "mayonnaise", "red onion", "celery" };
+            string[] potatoSalad = { "potato", "salt", "pepper", "milk", "celery" };
 
 
 
@@ -33,6 +34,9 @@ namespace MyProgram
             CheckRecipe(ingredients, burger, "Burger");
             CheckRecipe(ingredients, salad, "Salad");
             CheckRecipe(ingredients, chickenSandwich, "Chicken Sandwich");
+            CheckRecipe(ingredients, grilledChickenSalad, "Grilled Chicken Salad");
+            CheckRecipe(ingredients, chickenSalad, "Chicken Salad");
+            CheckRecipe(ingredients, potatoSalad, "Potato Salad");
         }
 
         private static void CheckRecipe(List<string> availableIngredients, string[] recipe, string recipeName)
