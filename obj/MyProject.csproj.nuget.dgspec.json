@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/calvingaiennie/Documents/GitHub/C#/MyProject/MyProject.csproj": {}
+    "/Users/calvingaiennie/Documents/GitHub/C#/MyProject.csproj": {}
   },
   "projects": {
-    "/Users/calvingaiennie/Documents/GitHub/C#/MyProject/MyProject.csproj": {
+    "/Users/calvingaiennie/Documents/GitHub/C#/MyProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/calvingaiennie/Documents/GitHub/C#/MyProject/MyProject.csproj",
+        "projectUniqueName": "/Users/calvingaiennie/Documents/GitHub/C#/MyProject.csproj",
         "projectName": "MyProject",
-        "projectPath": "/Users/calvingaiennie/Documents/GitHub/C#/MyProject/MyProject.csproj",
+        "projectPath": "/Users/calvingaiennie/Documents/GitHub/C#/MyProject.csproj",
         "packagesPath": "/Users/calvingaiennie/.nuget/packages/",
-        "outputPath": "/Users/calvingaiennie/Documents/GitHub/C#/MyProject/obj/",
+        "outputPath": "/Users/calvingaiennie/Documents/GitHub/C#/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/calvingaiennie/.nuget/NuGet/NuGet.Config"
