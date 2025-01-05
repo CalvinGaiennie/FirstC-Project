@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.IO;
+using System.Text.Json;
 
 namespace MyProgram
 {
@@ -11,7 +13,7 @@ namespace MyProgram
         {
             string[] allIngredients = { "sliced bread", "ground beef", "egg", "cheese", "lettuce", "tomato", "onion", "olive oil", "bacon", "butter", "chicken", "vinegar", "mayonnaise", "red onion", "potato", "salt", "pepper", "milk", "celery" };
             string[] breakfastPlate = { "sliced bread", "egg", "cheese", "butter", "bacon" };
-            string[] burger = { "sliced bread", "ground beef", "lettuce", "tomato", "onion", "olive oil" };
+            string[] burger = { "sliced bread", "ground beef", "lettuce", "tomato", "onion"};
             string[] salad = { "lettuce", "tomato", "onion", "olive oil", "vinegar" };
             string[] chickenSandwich = { "sliced bread", "chicken", "lettuce", "tomato", };
             string[] grilledChickenSalad = { "chicken", "lettuce", "tomato", "onion" };
@@ -44,12 +46,20 @@ namespace MyProgram
             bool canMake = recipe.All(ingredient => availableIngredients.Contains(ingredient));
             if (canMake)
             {
-                Console.WriteLine($"You can make a {recipeName}!");
-            }
-            else
-            {
-                var missingIngredients = recipe.Where(ingredient => !availableIngredients.Contains(ingredient));
-                Console.WriteLine($"You cannot make a {recipeName}. Missing ingredients: {string.Join(", ", missingIngredients)}");
+                string message = $"You can make a {recipeName}! with the following ingredients: {string.Join(", ", recipe)}";
+                Console.WriteLine(message);
+                
+                // Create recipe object
+                var recipeResult = new
+                {
+                    Name = recipeName,
+                    CanMake = true,
+                    Ingredients = recipe
+                };
+
+                // Convert to JSON and append to file
+                string jsonString = System.Text.Json.JsonSerializer.Serialize(recipeResult, new System.Text.Json.JsonSerializerOptions { WriteIndented = true });
+                File.AppendAllText("recipes.json", jsonString + Environment.NewLine);
             }
         }
     }
