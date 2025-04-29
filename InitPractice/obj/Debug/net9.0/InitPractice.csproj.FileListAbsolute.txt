@@ -1,0 +1,15 @@
+/Users/calvingaiennie/Documents/GitHub/C#/InitPractice/bin/Debug/net9.0/InitPractice
+/Users/calvingaiennie/Documents/GitHub/C#/InitPractice/bin/Debug/net9.0/InitPractice.deps.json
+/Users/calvingaiennie/Documents/GitHub/C#/InitPractice/bin/Debug/net9.0/InitPractice.runtimeconfig.json
+/Users/calvingaiennie/Documents/GitHub/C#/InitPractice/bin/Debug/net9.0/InitPractice.dll
+/Users/calvingaiennie/Documents/GitHub/C#/InitPractice/bin/Debug/net9.0/InitPractice.pdb
+/Users/calvingaiennie/Documents/GitHub/C#/InitPractice/obj/Debug/net9.0/InitPractice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/calvingaiennie/Documents/GitHub/C#/InitPractice/obj/Debug/net9.0/InitPractice.AssemblyInfoInputs.cache
+/Users/calvingaiennie/Documents/GitHub/C#/InitPractice/obj/Debug/net9.0/InitPractice.AssemblyInfo.cs
+/Users/calvingaiennie/Documents/GitHub/C#/InitPractice/obj/Debug/net9.0/InitPractice.csproj.CoreCompileInputs.cache
+/Users/calvingaiennie/Documents/GitHub/C#/InitPractice/obj/Debug/net9.0/InitPractice.sourcelink.json
+/Users/calvingaiennie/Documents/GitHub/C#/InitPractice/obj/Debug/net9.0/InitPractice.dll
+/Users/calvingaiennie/Documents/GitHub/C#/InitPractice/obj/Debug/net9.0/refint/InitPractice.dll
+/Users/calvingaiennie/Documents/GitHub/C#/InitPractice/obj/Debug/net9.0/InitPractice.pdb
+/Users/calvingaiennie/Documents/GitHub/C#/InitPractice/obj/Debug/net9.0/InitPractice.genruntimeconfig.cache
+/Users/calvingaiennie/Documents/GitHub/C#/InitPractice/obj/Debug/net9.0/ref/InitPractice.dll

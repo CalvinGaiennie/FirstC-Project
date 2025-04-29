@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/calvingaiennie/Documents/GitHub/C#/MyProject.csproj",
-      "projectName": "MyProject",
-      "projectPath": "/Users/calvingaiennie/Documents/GitHub/C#/MyProject.csproj",
+      "projectUniqueName": "/Users/calvingaiennie/Documents/GitHub/C#/InitPractice/InitPractice.csproj",
+      "projectName": "InitPractice",
+      "projectPath": "/Users/calvingaiennie/Documents/GitHub/C#/InitPractice/InitPractice.csproj",
       "packagesPath": "/Users/calvingaiennie/.nuget/packages/",
-      "outputPath": "/Users/calvingaiennie/Documents/GitHub/C#/obj/",
+      "outputPath": "/Users/calvingaiennie/Documents/GitHub/C#/InitPractice/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/calvingaiennie/.nuget/NuGet/NuGet.Config"
